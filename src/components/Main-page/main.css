@@ -1,0 +1,69 @@
+body{
+    background-color: skyblue;
+}
+.main-div{
+    background-color: skyblue;
+}
+.search-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.search-section form input{
+    border-radius: 20px;
+    height: 25px;
+    width: 55vw;
+    border: 0px ;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.search-section form button{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: skyblue;
+    height: 45px;
+    border:2px solid white;
+    width: 90px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.search-section form button:hover{
+    background-color: white;
+    color: rgb(54, 169, 214);
+}
+.movie-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.maincard img{
+height: 350px;
+width: 300px;
+border-radius: 5px;
+}
+.maincard{
+    margin: 10px;
+}
+.myhover{
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    bottom: 370px;
+    color: white;
+    border: 5px;
+    opacity: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+
+}
+.myhover:hover{
+    opacity: 10;
+}
+.myhover h1{
+    font-size: 25px;
+}
